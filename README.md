@@ -10,4 +10,10 @@ O problema dos testes manuais:
     - Teste de carga: testa a performance da aplicação (JMETER)
 
 
-Testes de Unidade/Unitários: 
+- Chain of Responsibility:
+- Chain of Responsibility é um padrão de projeto comportamental que permite passar solicitações ao longo de uma cadeia de manipuladores. Ao receber uma solicitação, cada manipulador decide processar a solicitação ou passá-la para o próximo manipulador na cadeia.
+
+
+Codigo de Teste: 
+- nome explicativo
+
