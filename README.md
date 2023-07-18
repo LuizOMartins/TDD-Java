@@ -17,3 +17,5 @@ O problema dos testes manuais:
 Codigo de Teste: 
 - nome explicativo
 
+- Atenção as asserções:
+-- cada teste deve ter apenas uma asserção.
