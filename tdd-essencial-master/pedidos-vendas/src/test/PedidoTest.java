@@ -1,6 +1,7 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -65,6 +66,19 @@ public class PedidoTest {
 	public void deveAplicarDescontoNa3aFaixa() throws Exception {
 		pedido.comItem(15.0, 30).comItem(15.0, 30).comItem(10.0, 30);
 		assertResumoPedido(1200.0, 96.0);
+	}
+	
+	@Test(expected = QuantidadeItensInvalidaException.class)
+	public void naoAceitarPedidosComItensComQuantidadesNegativar() throws Exception {
+		
+		try {
+			pedido.comItem(0.0, -10);
+			fail("Deveria ter lançcado a exceptrion QuantidadeItensInvalidaException");
+		}catch(QuantidadeItensInvalidaException e) {
+			String message  = e.getMessage();
+			assertEquals("Não pode ser negativo", message);
+			
+		}
 	}
 	
 }
