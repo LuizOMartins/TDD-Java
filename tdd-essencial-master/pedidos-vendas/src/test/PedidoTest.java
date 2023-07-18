@@ -1,15 +1,18 @@
-package com.algaworks;
+package test;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.algaworks.desconto.CalculadoraDescontoPrimeiraFaixa;
-import com.algaworks.desconto.CalculadoraDescontoSegundaFaixa;
-import com.algaworks.desconto.CalculadoraDescontoTerceiraFaixa;
-import com.algaworks.desconto.CalculadoraFaixaDesconto;
-import com.algaworks.desconto.SemDesconto;
+import algaworks.ItemPedido;
+import algaworks.Pedido;
+import algaworks.ResumoPedido;
+import desconto.CalculadoraDescontoPrimeiraFaixa;
+import desconto.CalculadoraDescontoSegundaFaixa;
+import desconto.CalculadoraDescontoTerceiraFaixa;
+import desconto.CalculadoraFaixaDesconto;
+import desconto.SemDesconto;
 
 public class PedidoTest {
 

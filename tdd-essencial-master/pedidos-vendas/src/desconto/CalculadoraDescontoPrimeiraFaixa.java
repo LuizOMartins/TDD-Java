@@ -1,4 +1,4 @@
-package com.algaworks.desconto;
+package desconto;
 
 public class CalculadoraDescontoPrimeiraFaixa extends CalculadoraFaixaDesconto {
 

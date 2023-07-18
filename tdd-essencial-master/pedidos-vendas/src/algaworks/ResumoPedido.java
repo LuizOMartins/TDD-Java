@@ -1,4 +1,4 @@
-package com.algaworks;
+package algaworks;
 
 public class ResumoPedido {
 

@@ -1,9 +1,9 @@
-package com.algaworks;
+package algaworks;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.algaworks.desconto.CalculadoraFaixaDesconto;
+import desconto.CalculadoraFaixaDesconto;
 
 public class Pedido {
 	
