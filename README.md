@@ -29,3 +29,8 @@ Tecnica de Teste e separação de responsabilidades:
 - exemplo: projeto passagem aerea.
 -  Exemplo de caso com varios tipos de passeiros e  com descontos diefrentes.
 
+-  Desacoplando e aumentando a coesões das classes:
+- Estratégia usada: delegando no tipo passageiro Enum a responsabilidade de escolher a classe de calculo.
+- Nesse exemplo, também é possivel separar os testes por tipo de passageiro e assim realizar o testes em cada classe e dai no caso extinguir os testes extensos em apenas uma classe, no exemplo, no Service.
+
+
