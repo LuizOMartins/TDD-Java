@@ -19,3 +19,13 @@ Codigo de Teste:
 
 - Atenção as asserções:
 -- cada teste deve ter apenas uma asserção.
+
+____________
+Identificar resposabilidade de uma classe:
+- Uma classe deve ter apenas uma responsabilidade
+
+
+Tecnica de Teste e separação de responsabilidades:
+- exemplo: projeto passagem aerea.
+-  Exemplo de caso com varios tipos de passeiros e  com descontos diefrentes.
+
