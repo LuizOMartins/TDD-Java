@@ -54,6 +54,8 @@ public class PedidoServiceTest {
 	public void deveSalvarPedidoNoBancoDeDados() throws Exception {
 		pedidoService.lancar(pedido);
 		Mockito.verify(pedidos).executar(pedido);
+		//no código: Mockito.verify(pedidos).executar(pedido);
+		// verifica se o executar foi chamado
 	}
 	
 	@Test

@@ -34,3 +34,22 @@ Tecnica de Teste e separação de responsabilidades:
 - Nesse exemplo, também é possivel separar os testes por tipo de passageiro e assim realizar o testes em cada classe e dai no caso extinguir os testes extensos em apenas uma classe, no exemplo, no Service.
 
 
+_______________________________________________________
+
+Mock: Usando Mock Objects
+
+Regras para pedido:
+- calcular imposto
+- salvar no banco de dados
+-  enviar e-mail para cliente
+- notificar por SMS
+
+
+Dependencia Mockito: AUXILIA NA CRIAÇÃO DE MOCKS.
+- no caso foi utilizado um mock para simular salvar no banco de dados.
+Exemplo:
+Pedidos pedidos = Mockito.mock(Pedidos.class);
+-> o objeto pedido é um mock, ou seja, não é um objeto real, mas sim um objeto simulado.
+no código: MOckito.verify(pedidos).salvar(pedido);
+> faz a verificação se o método salvar foi chamado.
+
