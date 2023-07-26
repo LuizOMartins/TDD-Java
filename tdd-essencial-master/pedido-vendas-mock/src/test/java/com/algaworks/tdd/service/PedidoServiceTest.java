@@ -69,4 +69,10 @@ public class PedidoServiceTest {
 		pedidoService.lancar(pedido);
 		Mockito.verify(notificadorSms).executar(pedido);
 	}
+	
+	@Test
+	public void devePagarPedidoPendente() throws Exception {
+		Long codigoPedido = 135L;
+		Pedido pedidoPago = pedidoService.pagar(codigoPedido);
+	}
 }

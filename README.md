@@ -53,3 +53,8 @@ Pedidos pedidos = Mockito.mock(Pedidos.class);
 no código: MOckito.verify(pedidos).salvar(pedido);
 > faz a verificação se o método salvar foi chamado.
 
+__________________________________________________________
+- Facilitando a evolução do Software.
+- realizando desacoplamento e aumentando a coesão.
+-- percepção de melhora de código.
+

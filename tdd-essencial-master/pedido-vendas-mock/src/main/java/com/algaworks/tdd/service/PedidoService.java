@@ -20,4 +20,9 @@ public class PedidoService {
 		return imposto;
 	}
 
+	public Pedido pagar(Long codigoPedido) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
